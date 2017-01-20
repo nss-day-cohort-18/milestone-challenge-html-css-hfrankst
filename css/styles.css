@@ -1,0 +1,10 @@
+/***Styling for Personal Page****/
+/***Photo****/ 
+div.photo {
+	text-align: center;
+}
+
+div.photo img {
+	border: 1px solid blue;
+	border-radius: 50%;
+}

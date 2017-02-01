@@ -1,10 +1,39 @@
-/***Styling for Personal Page****/
-/***Photo****/ 
+
+* {
+	margin: 0;
+	padding: 0;
+	background-color: silver;
+
+}
+
+body {
+	font-family: 'Lato', sans-serif; 
+	font-family: 'Rubik', sans-serif;
+	
+}
+
+
+h1 {
+	text-align: center;
+}
+
+
+
 div.photo {
 	text-align: center;
+	flex-basis: 80px;
+	border: 3px solid darkgreen;
 }
 
 div.photo img {
 	border: 1px solid blue;
 	border-radius: 50%;
 }
+
+
+footer {
+	text-align: center;
+	border: 3px solid red;
+	display: flex;
+}
+

@@ -1,0 +1,63 @@
+
+/** {
+	margin: 0;
+	padding: 0;
+
+}*/
+
+/*****General Body Styling*****/
+body {
+	background-color: silver;
+	font-family: 'Lato', sans-serif; 
+	font-family: 'Rubik', sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+.parent {
+	margin-left: 0 3em ;
+	padding: auto; 
+}
+h1 {
+	text-align: center;
+}
+
+nav {
+	float: left;
+}
+
+nav a {
+	align-items: center; 
+	text-decoration: none;
+	color: black;
+	padding-left: 1em;
+}
+
+.projects li {
+	text-decoration-style: bullet;
+}
+
+/*****Photo Styling*****/
+
+div.photo {
+	text-align: center;
+	flex-basis: 80px;
+	border: 3px solid darkgreen;
+}
+
+div.photo img {
+	border: 1px solid blue;
+	border-radius: 50%;
+}
+
+/*******Footer Styling******/
+footer {
+	text-align: center;
+	border: 3px solid red;
+	justify-content: center;
+}
+
+footer a {
+	align-items: center;
+}
+
